@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.kiraly.csombor.tripexpensescalculator.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:weightSum="1">
+
+<!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editText_personName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText_payedAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:ems="10"
+            android:hint="Amount"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/button_addPerson"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="ADD" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView_personListMain"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+-->
+
+
+
+    <TextView
+        android:id="@+id/trip_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Persons"
+        android:textSize="30sp" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/main_linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.kiraly.csombor.tripexpensescalculator.graph.PieGraph
+                android:id="@+id/pie_graph"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"/>
+
+            <com.kiraly.csombor.tripexpensescalculator.graph.BarGraph
+                android:id="@+id/bar_graph"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"/>
+
+            <com.kiraly.csombor.tripexpensescalculator.graph.StatView
+                android:id="@+id/stat_view"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"/>
+
+            <com.kiraly.csombor.tripexpensescalculator.graph.ResultView
+                android:id="@+id/result_view"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
