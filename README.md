@@ -2,6 +2,14 @@
 
 Android alkalmazás, ami számontartja hogy egy túra alatt ki mennyit fizetett, és kiszámolja hogy a túra végén ki kinek mennyit fizessen hogy kiegyenlítődjenek a tratozások.
 
+## Képernyőképek
+
+<img src="https://github.com/kcsombi/TripExpensesCalculator/blob/master/Screenshots/Screenshot_2018-02-23-19-56-24.png" alt="alt text" width="200"> <img src="https://github.com/kcsombi/TripExpensesCalculator/blob/master/Screenshots/Screenshot_2018-02-23-19-56-27.png" alt="alt text" width="200">
+<img src="https://github.com/kcsombi/TripExpensesCalculator/blob/master/Screenshots/Screenshot_2018-02-23-19-50-32.png" alt="alt text" width="200">
+
+<img src="https://github.com/kcsombi/TripExpensesCalculator/blob/master/Screenshots/Screenshot_2018-02-23-19-48-32.png" alt="alt text" width="200"> <img src="https://github.com/kcsombi/TripExpensesCalculator/blob/master/Screenshots/Screenshot_2018-02-23-19-49-15.png" alt="alt text" width="200">
+<img src="https://github.com/kcsombi/TripExpensesCalculator/blob/master/Screenshots/Screenshot_2018-02-23-19-57-11.png" alt="alt text" width="200">
+
 ## Használat
 - **nézet váltás:** android drawer segítségével. Fő nézetre a vissza gombbal lehet navigálni
 ### Túrák
