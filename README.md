@@ -1,6 +1,6 @@
 # TripExpensesCalculator
 
-Android alkalmazás, ami számontartja hogy egy túra alatt ki mennyit fizetett, és kiszámolja hogy a túra végén ki kinek mennyit fizessen hogy kiegyenlítődjenek a tratozások.
+Android alkalmazás, ami számontartja hogy egy túra alatt ki mennyit fizetett, és kiszámolja hogy a túra végén ki kinek mennyit fizessen hogy kiegyenlítődjenek a tartozások.
 
 ## Képernyőképek
 
@@ -28,7 +28,7 @@ Android alkalmazás, ami számontartja hogy egy túra alatt ki mennyit fizetett,
     - **comment:** Megjegyzés
     - **személyenkénti részletezés:**
         - **checkbox:** az aktuális személy részt vett-e a fizetésben
-        - **beviteli mező:** Megadható hogy az aktuális személynek mennyit kellene fizetnie, illetve hogy mennyivel kellene többet vagy kevesebbet fizetnie mint a többiek
+        - **beviteli mező:** Megadható hogy az aktuális személynek mennyit kellene fizetnie, illetve hogy mennyivel kellene többet vagy kevesebbet fizetnie mint a többieknek
         - **gomb:** Állapotot a gomb megérintésével lehet változtatni. Állapotok:
             - **" ":** A személynek annyit kellene fizetnie, amennyi a beviteli mezőben lévő érték
             - **"+":** A személynek annyival kellene többet fizetnie, amennyi a beviteli mezőben lévő érték
